@@ -1,0 +1,34 @@
+.form-container{
+    width:650px;
+    margin:auto;
+    box-shadow: 2px 5px 10px gray;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.form-container h1{
+    text-align: center;
+}
+#innercontainer 
+{
+    display: inline-block;
+    padding: 0%;
+}
+.inline{
+    padding:4px
+}
+.inline:after{
+    content: 'x';
+    color: red;
+    
+}
+.fulfilled{
+    color:green;
+}
+.fulfilled.inline:after{ 
+       content:'\2713';
+       color:green;
+}
+#submitButton:disabled{
+    cursor:not-allowed;
+}

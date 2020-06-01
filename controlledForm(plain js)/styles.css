@@ -1,0 +1,121 @@
+body{
+    background-color:  aquamarine;
+}
+.outerContainer{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    /* // justify-content: center; */
+    /* align-items: center;
+    text-align: center; */
+    }
+
+    .h1{
+        color:brown;
+        text-align: center;
+        
+        margin-left: 25%;
+    margin-right: 25%;
+    transition: transform .2s;
+}
+.h1:hover{
+    transform: scale(1.2);
+}
+.input{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+     padding:5px;
+    height: 50px;
+    width: 350px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    height:30px;
+    width:160px;
+    transition: transform .2s;
+}
+.input:hover{
+    transform: scale(1.2);
+}
+.inputR{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+     padding:5px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    height:30px;
+    width:160px;
+    
+    transition: transform .2s;
+}
+.inputR:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.innerContainer{
+    
+    padding: 20px;
+    background-color: brown;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.maritalStatus{
+    
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    margin-left: 10%;
+    margin-right: 15px;
+}
+.p1{
+    display: inline;
+    justify-content: flex-end;
+    color: white;
+    margin-left:5px;
+    transition: transform .2s;
+}
+.p1:hover{
+    transform: scale(1.2);
+}
+.graduation{
+    margin-left: 10%;
+    display: inline;
+    color: white;
+    font-size: 22px;
+    
+    }
+.submitButton{
+        height: 25px;
+        width: 100px;
+        border:none;
+        border-radius: 20px;
+        margin-left: 40%;
+        float: inline-end;
+        transition: transform .2s;
+        opacity: 0.6;
+        
+    }
+    .submitButton:hover{
+        opacity: 1;
+        transform: scale(1.5);
+    }
+    
+    p.outputPTag{
+        color: white;
+        font-size: 20px;
+        background-color: brown;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding-left: 10px;
+        
+    }
+
+    
+    

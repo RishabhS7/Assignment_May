@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name ="viewport" content="width=device-width,initial=1.0">
+        <meta http-equiv="X-UA-Compatible" contents="ie-edge">
+        <title>Pain Javascript form</title>
+    <link rel="stylesheet" href = "./style.css"/>
+    </head>
+    <body>
+        <div class ="form-container">
+            <h1>Form</h1>
+            
+            
+            <Form class ="required-form" onsubmit="event.preventDefault(); console.log('succsess');">
+                 
+         <div class ="inline" id ="nameContainer" >
+             <input required type="text" id="userNameInput" class="form-control input-listener" placeholder="Your Name">
+           </div>
+
+           <div class ="inline" id ="emailContainer">
+             <input required type="email" id="emailInput" class="form-control input-listener" placeholder="Your Email ">
+          </div>
+
+          <div class="inline" id ="numberContainer">
+           <input required type="number" id="numberInput" class="form-control input-listener" placeholder="your Number">
+        </div>
+
+        <div class="inline" id ="passwordContainer">
+         <input required type="password" id ="passwordInput" class="form-control input-listener" placeholder="Enter your new password">
+        </div>
+
+        <div class ="inline" id ="confirmPasswordContainer" >
+             <input required type="password" id="confirmPasswordInput" class="form-control input-listener" placeholder="Confirm Password">
+        </div>
+
+            <button disabled id ="submitButton" type="submit">Submit</button>
+
+    </Form>
+</div>
+      
+    <script src="./form.js"></script>
+    </body>
+</html>

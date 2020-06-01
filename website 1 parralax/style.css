@@ -1,0 +1,69 @@
+.section1{
+background-image: url(./images/1000030.jpg);
+background-size: cover;
+min-height: 700px;
+width: 100%;
+height: 100%;
+justify-content: center;
+position: relative;
+background-position-y: top;
+background-position-x:center;
+background-attachment: fixed;
+
+
+
+}
+.subSection{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    
+    }
+
+.text{
+    color:#fff;
+}
+
+
+.section2{
+    background-image: url(./images/1007788.jpg);
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.descriptionHeader{
+        font-style: italic;
+        text-align: center;
+        text-shadow: 2px 1px darkorchid ;
+        color: darkmagenta;
+    }
+.description{
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.section3{
+    background-image: url(./images/1008472.png);
+    background-size: cover;
+    min-height: 750px;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    background-position:center;
+    background-attachment: fixed;
+}
+.contents{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    font-size: 30px;
+    
+    }
